@@ -45,7 +45,7 @@ export class Employee extends Component {
         let addModalClose = () => this.setState({ addModalShow: false });
         let editModalClose = () => this.setState({ editModalShow: false });
         return (
-            <div >
+            <div className="container">
                 <Table className="mt-4" striped bordered hover size="sm">
                     <thead>
                         <tr>
